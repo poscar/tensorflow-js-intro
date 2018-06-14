@@ -1,6 +1,6 @@
 # tensorflow-js-intro
 
-Introduction to [TensorFlow.js](https://js.tensorflow.org/) by building a website that
+Introduction to [TensorFlow.js](https://js.tensorflow.org/) by building a web app that
 is able to recognize hand drawn digits in a [Canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
 element.
 
