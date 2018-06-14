@@ -1,0 +1,42 @@
+<html>
+<head>
+    <title>TensorFlow.js Digit Recognizer</title>
+    <!-- Load TensorFlow.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.11.6"> </script>
+    
+    <!-- Load MNIST data set -->
+    <script src="./mnist.js"></script>
+    
+    <!-- Load the model creation and training functions -->
+    <script src="./model.js"></script>
+    
+    <!-- Load the canvas drawing and manipulation functions -->
+    <script src="./drawing.js"></script>
+    
+    <!-- Main script containing the entry point that gets executed after DOMContentLoaded -->
+    <script src="./main.js"></script>
+</head>
+
+<body>
+    <h1>TensorFlow.js Digit Recognizer</h1>
+    <div>
+        <button id="train">Train</button>
+    </div>
+    <div>
+        <div>
+            <h2>Drawing Pad</h2>
+            <p>Brush Width: <input id="brushWidth" type="range" min="5" max="25" value="15"></p>
+            <canvas id="drawPad" width="280" height="280"></canvas>
+            <p><button id="clear">Clear</button></p>
+        </div>
+        <div>
+            <h2>Model Input</h2>
+            <canvas id="tfInput" width="28" height="28"></canvas>
+        </div>
+        <div>
+            <h2>Recognized Digit</h2>
+            <h3 id="output"></h3>
+        </div>
+    </div>
+</body>
+</html>
