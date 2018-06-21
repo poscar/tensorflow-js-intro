@@ -16,6 +16,10 @@ In this introduction we will:
 
 This project was created for the [Fullstack](https://www.meetup.com/javascript-full-stack-development/) meetup in NYC on June 14th, 2018. You can find the companion slides [here](https://docs.google.com/presentation/d/1kD5ZWJ5OJZf8S08TQtUwBE9166sIOT-bwbtOu0iZSWs/edit?usp=sharing).
 
+### Presentation
+
+The presentation given at the meetup is [here on YouTube](https://www.youtube.com/watch?v=WsFaWkGisBU). Apologies in advance for the bad audio.
+
 ## Resources
 
 The following resources were used to create this project:
